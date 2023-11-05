@@ -1,85 +1,20 @@
-/* Calculator container styles */
-.calculator {
-    width: 300px;
-    margin: 0 auto;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e44f4f;
+}
+
+.countdown {
+    text-align: center;
+    background-color: #4b0d0d;
     padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    font-family: Arial, sans-serif;
-  }
-  
-  /* Calculator display styles */
-  #display {
-    font-size: 24px;
-    text-align: right;
-    margin-bottom: 10px;
-    padding: 5px;
-    border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #fff;
-  }
-  
-  /* Calculator button styles */
-  .button {
-    width: 60px;
-    height: 60px;
-    font-size: 20px;
-    margin: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-  }
-  
-  .button:hover {
-    background-color: #ccc;
-    color: #fff;
-  }
-  
-  /* Styling different button types */
-  .operator {
-    background-color: #ff8533;
-    color: #fff;
-  }
-  
-  .clear {
-    background-color: #ff4d4d;
-    color: #fff;
-  }
-  
-  /* Styling the equals button */
-  #equals {
-    background-color: #66cc66;
-    color: #fff;
-  }
-  
-  /* Styling the zero button */
-  #zero {
-    width: 130px;
-  }
-  
-  /* Styling the decimal point button */
-  #decimal {
-    width: 60px;
-  }
-  
-  /* Styling for the clear entry button */
-  #clear-entry {
-    background-color: #ff8533;
-    color: #fff;
-  }
-  
-  /* Styling for the clear all button */
-  #clear-all {
-    background-color: #ff4d4d;
-    color: #fff;
-  }
-  
-  /* Styling for the +/- (plus/minus) button */
-  #plus-minus {
-    background-color: #666; 
-    color: #fff;
-  }
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#timer {
+    font-size: 36px;
+}
